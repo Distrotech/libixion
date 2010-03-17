@@ -4,5 +4,5 @@ TODO: Write up some introductory text here.
 
 # Links
 The following projects are worth checking out.
-* [Ragel State Machine Compiler](http://www.complang.org/ragel/)
-* [Graphviz](http://www.graphviz.org/)
+1. [Ragel State Machine Compiler](http://www.complang.org/ragel/)
+2. [Graphviz](http://www.graphviz.org/)
