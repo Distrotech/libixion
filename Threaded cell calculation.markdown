@@ -3,4 +3,5 @@ One of the goals of designing the cell calculation framework in Ixion is to allo
 
 # Reference
 * [Boost Thread](http://www.boost.org/doc/libs/1_43_0/doc/html/thread.html) - Boost Thread library documentation.
+* [Multithreading and Concurrency](http://www.justsoftwaresolutions.co.uk/threading/) by Anthony Williams
 * [Thread Interruption in the Boost Thread Library](http://www.justsoftwaresolutions.co.uk/threading/thread-interruption-in-boost-thread-library.html) by Anthony Williams - focuses on how thread interruption works using Boost.Thread library.
