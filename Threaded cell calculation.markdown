@@ -7,6 +7,9 @@ One of the goals of designing the cell calculation framework in Ixion is to allo
 3. Using a single thread, perform pre-computation on all cells in topological order and mark circular dependent cells with appropriate error conditions.  Pre-computation only involves skimming through cell reference tokens while ignoring all the other tokens.
 4. Now, perform full interpretation of cells in topological order using variable number of threads.  Skip those cells marked with error conditions.  During this phase, block on any cells whose results are not yet computed, using thread condition variables.
 
+# Open questions
+* The current algorithm requires the whole formula cell list be scanned twice; first to detect circular dependencies and second to perform full computation.  Are there any performance implication for doing this?  Is there any better algorithm for detecting circular dependencies?
+
 # References
 ## Threaded programming in C++
 * [Boost Thread](http://www.boost.org/doc/libs/1_43_0/doc/html/thread.html) - Boost Thread library documentation.
