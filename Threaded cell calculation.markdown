@@ -1,5 +1,5 @@
 # Introduction
-One of the goals of designing the cell calculation framework in Ixion is to allow concurrent execution of multiple formula cells while satisfying correct ordering per cell dependencies.  The framework should also allow a non-parallel execution of cell calculation if the caller so desires.  In parallel execution mode, the caller should be able to specify the number of threads to use at run-time.
+One of the goals of designing the cell calculation framework in Ixion is to allow concurrent computation of multiple formula cells while satisfying correct cell dependency order.  The framework should also allow a non-parallel execution of cell calculation if the caller so desires.  In parallel execution mode, the caller should be able to specify the number of threads to use during calculation.
 
 # Main execution flow
 1. Sort all formula cells in topological order to obtain the correct cell interpretation order.
