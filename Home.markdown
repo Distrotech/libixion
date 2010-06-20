@@ -10,7 +10,6 @@ This library is written with portability in mind; platform specific calls are av
 Achieving good performance is one of the goals of this project.  As much care is taken as humanly possible, to attain reasonable performance.
 
 # Open issues
-* Command line options are currently not working on Windows.  Use [Boost.Program_options](http://www.boost.org/doc/libs/1_43_0/doc/html/program_options.html) instead of [GNU getopt](http://www.gnu.org/s/libc/manual/html_node/Getopt.html) to fix this.
 * Add support for empty cells, which are not defined but can still be referenced.  Currently, referencing a cell that is not defined causes a reference error.
 * Add support for cell ranges.
 * Currently, this project only produces a stand-alone console program.  Split that into a shared library and a front-end executable that links to the library.
