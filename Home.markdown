@@ -12,3 +12,4 @@ Achieving good performance is one of the goals of this project.  As much care is
 # Open issues
 * Command line options are currently not working on Windows.  Use [Boost.Program_options](http://www.boost.org/doc/libs/1_43_0/doc/html/program_options.html) instead of [GNU getopt](http://www.gnu.org/s/libc/manual/html_node/Getopt.html) to fix this.
 * Currently, this project only produces a stand-alone console program.  Split that into a shared library and a front-end executable that links to the library.
+* Use autoconf to configure platform specific parameters.
