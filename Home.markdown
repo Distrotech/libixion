@@ -1,4 +1,4 @@
-Ixion is a general purpose formula parser & interpreter that works on multiple calculation targets, or "cells".  It can be run in a single-thread mode or multi-thread mode.  When running in a multi-thread mode, the user can specify the number of threads to use for calculation of cells.
+Ixion is a general purpose formula parser & interpreter that can calculate multiple named targets, or "cells".
 
-# Goal
-The goal of this project is to create a library for calculating the results of formula expressions stored in multiple named targets, or "cells".  The cells can be referenced from each other, and the library takes care of resolving their dependencies automatically upon calculation.
+# Overview
+The goal of this project is to create a library for calculating the results of formula expressions stored in multiple named targets, or "cells".  The cells can be referenced from each other, and the library takes care of resolving their dependencies automatically upon calculation.  The caller can run the calculation routine either in a single-threaded mode, or a multi-threaded mode.  The library also supports re-calculations where the contents of one or more cells have been modified since the last calculation, and a partial calculation of only the affected cells need to be calculated.
