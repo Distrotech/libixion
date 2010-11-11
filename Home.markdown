@@ -12,5 +12,3 @@ Achieving good performance is one of the goals of this project.  As much care is
 # Open issues
 * Add support for empty cells.  Empty cells are those cells that are not defined in the model definition file but can still be referenced.  Currently, referencing a cell that is not defined causes a reference error.
 * Add support for cell ranges.
-* Currently, this project only produces a stand-alone console program.  Split that into a shared library and a front-end executable that links to the library.
-* Use autoconf to configure platform specific parameters.  Right now, there is only one Makefile where every parameter is hard-coded.
