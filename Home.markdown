@@ -9,6 +9,9 @@ This library is written with portability in mind; platform specific calls are av
 # Performance
 Achieving good performance is one of the goals of this project.  As much care is taken as humanly possible, to attain reasonable performance.
 
+# Threaded calculation
+Ixion can perform threaded calculation using arbitrary number of threads, for both full and partial calculation modes.
+
 # Open issues
 * Add support for empty cells.  Empty cells are those cells that are not defined in the model definition file but can still be referenced.  Currently, referencing a cell that is not defined causes a reference error.
 * Add support for cell ranges.
