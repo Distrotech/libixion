@@ -1,0 +1,1 @@
+Formula parser receives a set of primitive tokens (or lexer tokens) and converts them into formula tokens.
