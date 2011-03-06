@@ -12,6 +12,7 @@ Achieving good performance is one of the goals of this project.  As much care is
 # Threaded calculation
 Ixion can perform threaded calculation using arbitrary number of threads, for both full and partial calculation modes.
 
-# Open issues
+# Ongoing work
+* Resolve formula names during formula token construction and classify them into cell references, cell range references, named ranges etc.  This implicitly adds support for empty cells, as cell's validity is inferred from the name itself even if that cell itself is undefined in the model definition.  This is also where cell ranges are picked up.
 * Add support for empty cells.  Empty cells are those cells that are not defined in the model definition file but can still be referenced.  Currently, referencing a cell that is not defined causes a reference error.
 * Add support for cell ranges.
