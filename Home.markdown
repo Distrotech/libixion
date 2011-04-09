@@ -12,15 +12,17 @@ Achieving good performance is one of the goals of this project.  As much care is
 ## Threaded calculation
 Ixion can perform threaded calculation using arbitrary number of threads, for both full and partial calculation modes.
 
-## Features
+## Supported features
+* Each calculation session is defined in a plain text file, which is parsed and interpreted by the Ixion parser.
 * Fully threaded calculation.
-* Name resolution using A1 naming convention.
+* Name resolution using A1-style references.
 * Support 2D cell references and named expressions.
 * Dependency tracking during both full calculation and partial re-calculation.
 
-## Ongoing work
-* Resolve formula names during formula token construction and classify them into cell references, cell range references, named ranges etc.  This implicitly adds support for empty cells, as cell's validity is inferred from the name itself even if that cell itself is undefined in the model definition.  This is also where cell ranges are picked up.
+## Planned features
+* Support for R1C1 style references.
 * Add support for cell ranges.
 * Add support for 3D cell references.
 * More built-in functions.
+* Standard C/C++ interface for external applications.
 
