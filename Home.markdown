@@ -4,7 +4,7 @@ Ixion is a general purpose formula parser & interpreter that can calculate multi
 The goal of this project is to create a library for calculating the results of formula expressions stored in multiple named targets, or "cells".  The cells can be referenced from each other, and the library takes care of resolving their dependencies automatically upon calculation.  The caller can run the calculation routine either in a single-threaded mode, or a multi-threaded mode.  The library also supports re-calculations where the contents of one or more cells have been modified since the last calculation, and a partial calculation of only the affected cells need to be calculated.
 
 ## Portability
-This library is written with portability in mind; platform specific calls are avoided as much as possible.  It makes extensive use of the [boost library](http://boost.org) to achieve portability.  However, the library does use some of the upcoming C++0x (or TR1) features, which may make it difficult to build it with older compilers that provide no support for C++0x.
+This library is written with portability in mind; platform specific calls are avoided as much as possible.  It makes extensive use of the [boost library](http://boost.org) to achieve portability where possible.
 
 ## Performance
 Achieving good performance is one of the goals of this project.  As much care is taken as humanly possible, to attain reasonable performance.
@@ -17,12 +17,15 @@ Ixion can perform threaded calculation using arbitrary number of threads, for bo
 * Fully threaded calculation.
 * Name resolution using A1-style references.
 * Support 2D cell references and named expressions.
+* Support range references.
 * Dependency tracking during both full calculation and partial re-calculation.
+
+## Features in progress
+* 3D cell and range references - Initial support is in place.  Needs more testing.
+* Standard C/C++ interface for external applications - It's there, but needs to be stabilized.
 
 ## Planned features
 * Support for R1C1 style references.
-* Add support for cell ranges.
-* Add support for 3D cell references.
 * More built-in functions.
-* Standard C/C++ interface for external applications.
+
 
