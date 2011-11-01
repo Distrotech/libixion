@@ -1,2 +1,2 @@
 # Source packages
-[0.3.0](http://kohei.us/files/ixion/src/libixion_0.3.0.tar.bz2)
+* 0.3.0 [libixion_0.3.0.tar.bz2](http://kohei.us/files/ixion/src/libixion_0.3.0.tar.bz2) (md5sum: 96a36a0016f968a5a7c4b167eeb1643b) (sha1sum: ac1fa915303ed8492ac50d6f0aa4d974e8405954)
