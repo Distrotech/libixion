@@ -28,4 +28,6 @@ Ixion can perform threaded calculation using arbitrary number of threads, for bo
 * Support for R1C1 style references.
 * More built-in functions.
 
+## Download
+Please refer to the [[Download]] page for source packages.
 
