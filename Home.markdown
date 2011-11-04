@@ -27,6 +27,9 @@ Ixion can perform threaded calculation using arbitrary number of threads, for bo
 ## Planned features
 * Support for R1C1 style references.
 * More built-in functions.
+* Volatile functions.
+* Support for custom functions defined in the caller program.
+* Support for external references.
 
 ## Download
 Please refer to the [[Download]] page for source packages.
