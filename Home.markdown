@@ -25,6 +25,11 @@ Ixion can perform threaded calculation using arbitrary number of threads, for bo
 * Standard C/C++ interface for external applications - It's there, but needs to be stabilized.
 
 ## Planned features
+* Inline strings.
+* Matrix support.
+  * Inline matrix.
+  * Matrix as formula out from a single function.
+  * Jump matrix - range input to function that expects a scalar input, and generate matrix output.
 * Support for R1C1 style references.
 * More built-in functions.
 * Volatile functions.
