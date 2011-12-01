@@ -19,13 +19,13 @@ Ixion can perform threaded calculation using arbitrary number of threads, for bo
 * Support 2D cell references and named expressions.
 * Support range references.
 * Dependency tracking during both full calculation and partial re-calculation.
+* Inline strings.
 
 ## Features in progress
 * 3D cell and range references - Initial support is in place.  Needs more testing.
 * Standard C/C++ interface for external applications - It's there, but needs to be stabilized.
 
 ## Planned features
-* Inline strings.
 * Matrix support.
   * Inline matrix.
   * Matrix as formula out from a single function.
