@@ -20,6 +20,7 @@ Ixion can perform threaded calculation using arbitrary number of threads, for bo
 * Support range references.
 * Dependency tracking during both full calculation and partial re-calculation.
 * Inline strings.
+* Volatile functions.
 
 ## Features in progress
 * 3D cell and range references - Initial support is in place.  Needs more testing.
@@ -32,7 +33,6 @@ Ixion can perform threaded calculation using arbitrary number of threads, for bo
   * Jump matrix - range input to function that expects a scalar input, and generate matrix output.
 * Support for R1C1 style references.
 * More built-in functions.
-* Volatile functions.
 * Support for custom functions defined in the caller program.
 * Support for external references.
 
