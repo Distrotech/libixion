@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libixion
+Description: Generic formula computation library
+Version: 0.5.0
+Libs: -L${libdir} -lixion-0.6
+Cflags: -I${includedir}/libixion-0.6
+
