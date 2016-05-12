@@ -12,8 +12,8 @@
 /* Define to 1 if you have <boost/thread.hpp> */
 #undef HAVE_BOOST_THREAD_HPP
 
-/* Define to 1 if you have <boost/unordered_map.hpp> */
-#undef HAVE_BOOST_UNORDERED_MAP_HPP
+/* define if the compiler supports basic C++11 syntax */
+#undef HAVE_CXX11
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
 #undef HAVE_DLFCN_H
